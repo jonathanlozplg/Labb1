@@ -22,6 +22,7 @@ void DisplayMenu()
 void ReadInput()
 {
     int userInput = 0;
+    string userName = "";
     switch (Int32.Parse(Console.ReadLine()))
     {
         case 1:
